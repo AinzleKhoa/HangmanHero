@@ -4723,23 +4723,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ainzle\\.nuget\\packages\\": {},
+    "C:\\Users\\HoangSang\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+      "projectUniqueName": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
       "projectName": "g1_hangmanhero",
-      "projectPath": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj",
-      "packagesPath": "C:\\Users\\Ainzle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\obj\\",
+      "projectPath": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+      "packagesPath": "C:\\Users\\HoangSang\\.nuget\\packages\\",
+      "outputPath": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ainzle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HoangSang\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

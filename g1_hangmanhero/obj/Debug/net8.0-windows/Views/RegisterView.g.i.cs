@@ -68,7 +68,7 @@ namespace g1_hangmanhero.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/g1_hangmanhero;component/views/registerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/g1_hangmanhero;V1.0.0.0;component/views/registerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\RegisterView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
