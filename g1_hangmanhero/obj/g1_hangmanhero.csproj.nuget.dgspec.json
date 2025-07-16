@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {}
+    "D:\\ky_5\\PRN212\\Game\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {}
   },
   "projects": {
-    "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {
+    "D:\\ky_5\\PRN212\\Game\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+        "projectUniqueName": "D:\\ky_5\\PRN212\\Game\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
         "projectName": "g1_hangmanhero",
-        "projectPath": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
-        "packagesPath": "C:\\Users\\HoangSang\\.nuget\\packages\\",
-        "outputPath": "C:\\TAI_LIEU_HOC_TAP\\HangmanHero\\g1_hangmanhero\\obj\\",
+        "projectPath": "D:\\ky_5\\PRN212\\Game\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\ky_5\\PRN212\\Game\\HangmanHero\\g1_hangmanhero\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\HoangSang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -91,7 +91,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

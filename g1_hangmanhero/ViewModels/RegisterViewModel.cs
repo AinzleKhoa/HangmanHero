@@ -1,116 +1,105 @@
-﻿using System;
-using System.Linq;
-using System.Windows;
+﻿using g1_hangmanhero.Data;
 using g1_hangmanhero.Models;
-using g1_hangmanhero.Data;
-using g1_hangmanhero.Views;
+using System;
+using System.ComponentModel;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Media;
 
 namespace g1_hangmanhero.ViewModels
 {
-    public class RegisterViewModel : ViewModelBase
+    public class RegisterViewModel : INotifyPropertyChanged
     {
-        private string _username;
-        private string _password;
-        private string _confirmPassword;
-        private string _errorMessage;
-        private bool _hasError;
+        public string Username { get; set; }
+        public string StatusMessage { get; set; }
 
-        public string Username
+        public ICommand RegisterCommand { get; }
+        private readonly Action onRegisterSuccess;
+
+        public RegisterViewModel(Action onRegisterSuccess = null)
         {
-            get => _username;
-            set { _username = value; OnPropertyChanged(); }
-        }
-
-        public string Password
-        {
-            get => _password;
-            set { _password = value; OnPropertyChanged(); }
-        }
-
-        public string ConfirmPassword
-        {
-            get => _confirmPassword;
-            set { _confirmPassword = value; OnPropertyChanged(); }
-        }
-
-        public string ErrorMessage
-        {
-            get => _errorMessage;
-            set { _errorMessage = value; OnPropertyChanged(); HasError = !string.IsNullOrEmpty(value); }
-        }
-
-        public bool HasError
-        {
-            get => _hasError;
-            set { _hasError = value; OnPropertyChanged(); }
-        }
-
-        public RelayCommand RegisterCommand { get; }
-
-        public RegisterViewModel()
-        {
-            RegisterCommand = new RelayCommand(Register, CanRegister);
-        }
-
-        private bool CanRegister(object parameter)
-        {
-            return !string.IsNullOrWhiteSpace(Username) &&
-                   !string.IsNullOrWhiteSpace(Password) &&
-                   !string.IsNullOrWhiteSpace(ConfirmPassword);
+            this.onRegisterSuccess = onRegisterSuccess;
+            RegisterCommand = new RelayCommand(Register);
         }
 
         private void Register(object parameter)
         {
-            // Reset error message
-            ErrorMessage = string.Empty;
-
-            // Validate inputs
-            if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(Password))
+            if (parameter is PasswordBox passwordBox &&
+                passwordBox.Tag is string passwordTag &&
+                Application.Current.Windows.OfType<Window>().FirstOrDefault(w => w.IsActive) is Window currentWindow)
             {
-                ErrorMessage = "Username and password cannot be empty.";
-                return;
-            }
+                var confirmBox = FindControlByTag<PasswordBox>(currentWindow, "ConfirmPassword");
+                string password = passwordBox.Password;
+                string confirmPassword = confirmBox?.Password;
 
-            if (Password != ConfirmPassword)
-            {
-                ErrorMessage = "Passwords do not match.";
-                return;
-            }
-
-            using (var db = new HangmanHeroContext())
-            {
-                // Check for duplicate username
-                if (db.Players.Any(p => p.Username == Username))
+                if (string.IsNullOrWhiteSpace(Username) || string.IsNullOrWhiteSpace(password) || string.IsNullOrWhiteSpace(confirmPassword))
                 {
-                    ErrorMessage = "Username already exists.";
-                    return;
+                    StatusMessage = "All fields are required.";
+                }
+                else if (password != confirmPassword)
+                {
+                    StatusMessage = "Passwords do not match.";
+                }
+                else
+                {
+                    using (var context = new HangmanHeroContext())
+                    {
+                        if (context.Players.Any(p => p.Username == Username))
+                        {
+                            StatusMessage = "Username already exists.";
+                        }
+                        else
+                        {
+                            var newPlayer = new Player
+                            {
+                                Username = Username,
+                                PasswordHash = HashPassword(password),
+                                JoinDate = DateTime.Now,
+                                DefaultDifficulty = "Easy"
+                            };
+
+                            context.Players.Add(newPlayer);
+                            context.SaveChanges();
+
+                            StatusMessage = "Registration successful!";
+                            onRegisterSuccess?.Invoke();
+                        }
+                    }
                 }
 
-                // Hash the password
-
-                // Create a new player
-                var player = new Player
-                {
-                    Username = Username,
-                    JoinDate = DateTime.Now
-                };
-
-                // Save to database
-                try
-                {
-                    db.Players.Add(player);
-                    db.SaveChanges();
-
-                    // Navigate to GameView (placeholder)
-
-                    // Close the RegisterView
-                    Application.Current.Windows.OfType<RegisterView>().FirstOrDefault()?.Close();
-                }
-                catch (Exception ex)
-                {
-                    ErrorMessage = $"Registration failed: {ex.Message}";
-                }
+                OnPropertyChanged(nameof(StatusMessage));
             }
         }
+
+        private string HashPassword(string password)
+        {
+            using var sha = SHA256.Create();
+            var bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(password));
+            return BitConverter.ToString(bytes).Replace("-", "").ToLower();
+        }
+
+        private T FindControlByTag<T>(DependencyObject parent, string tag) where T : FrameworkElement
+        {
+            for (int i = 0; i < VisualTreeHelper.GetChildrenCount(parent); i++)
+            {
+                var child = VisualTreeHelper.GetChild(parent, i);
+                if (child is T element && (string)element.Tag == tag)
+                    return element;
+
+                var result = FindControlByTag<T>(child, tag);
+                if (result != null)
+                    return result;
+            }
+            return null;
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void OnPropertyChanged([CallerMemberName] string name = "") =>
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
     }
 }

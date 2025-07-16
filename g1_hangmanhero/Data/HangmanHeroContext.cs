@@ -12,7 +12,7 @@ namespace g1_hangmanhero.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Replace the connection string if needed
-            optionsBuilder.UseSqlServer(@"Server=localhost;Database=HangmanHero;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=HangmanHero;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

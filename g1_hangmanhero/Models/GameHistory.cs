@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,7 +8,8 @@ using System.Threading.Tasks;
 namespace g1_hangmanhero.Models
 {
     public class GameHistory
-    {
+        {
+        [Key]
         public int GameId { get; set; }
         public int PlayerId { get; set; } // Foreign key
         public string WordUsed { get; set; }

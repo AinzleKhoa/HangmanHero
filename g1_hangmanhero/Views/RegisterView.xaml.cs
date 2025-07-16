@@ -23,7 +23,22 @@ namespace g1_hangmanhero.Views
         public RegisterView()
         {
             InitializeComponent();
-            DataContext = new RegisterViewModel();
+
+            DataContext = new RegisterViewModel(() =>
+            {
+                // Callback khi đăng ký thành công
+                Application.Current.Dispatcher.Invoke(() =>
+                {
+                    new LoginView().Show();
+                    this.Close();
+                });
+            });
+        }
+
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            new LoginView().Show();
+            this.Close();
         }
     }
 }

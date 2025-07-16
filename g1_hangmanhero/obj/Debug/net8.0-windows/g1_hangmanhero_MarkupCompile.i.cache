@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\TAI_LIEU_HOC_TAP\HangmanHero\g1_hangmanhero\obj\Debug\net8.0-windows\
+D:\ky_5\PRN212\Game\HangmanHero\g1_hangmanhero\obj\Debug\net8.0-windows\
 g1_hangmanhero
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\TAI_LIEU_HOC_TAP\HangmanHero\g1_hangmanhero\App.xaml
-3967171792
+D:\ky_5\PRN212\Game\HangmanHero\g1_hangmanhero\App.xaml
+41288069083
 
-18-1259397934
-2281991908902
-Views\GameSetupView.xaml;Views\MainWindow.xaml;Views\RegisterView.xaml;
+20-31684255
+2281194628225
+Views\GameSetupView.xaml;Views\LoginView.xaml;Views\MainWindow.xaml;Views\RegisterView.xaml;
 
-True
+False
 
