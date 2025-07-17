@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj": {}
+    "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj": {
+    "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+        "projectUniqueName": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
         "projectName": "g1_hangmanhero",
-        "projectPath": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\g1_hangmanhero.csproj",
+        "projectPath": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\g1_hangmanhero.csproj",
         "packagesPath": "C:\\Users\\Ainzle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ainzle\\source\\repos\\g1_hangmanhero\\g1_hangmanhero\\obj\\",
+        "outputPath": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

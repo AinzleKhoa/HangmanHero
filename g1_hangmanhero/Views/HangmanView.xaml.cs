@@ -11,19 +11,20 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using g1_hangmanhero.Data;
 using g1_hangmanhero.ViewModels;
 
 namespace g1_hangmanhero.Views
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for HangmanView.xaml
     /// </summary>
-    public partial class RegisterView : Window
+    public partial class HangmanView : Window
     {
-        public RegisterView()
+        public HangmanView()
         {
             InitializeComponent();
-            DataContext = new RegisterViewModel();
+            this.DataContext = new HangmanViewModel(new HangmanHeroContext()); // Set the DataContext
         }
     }
 }
