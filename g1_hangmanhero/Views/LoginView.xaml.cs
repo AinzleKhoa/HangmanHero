@@ -20,19 +20,19 @@ namespace g1_hangmanhero.Views
     /// </summary>
     public partial class LoginView : Window
     {
-        public LoginView()
-        {
-            InitializeComponent();
+        //public LoginView()
+        //{
+        //    InitializeComponent();
 
-            DataContext = new LoginViewModel(() =>
-            {
-                Application.Current.Dispatcher.Invoke(() =>
-                {
-                    new MainWindow().Show(); // 👈 mở cửa sổ chính sau đăng nhập
-                    this.Close(); // đóng cửa sổ đăng nhập
-                });
-            });
-        }
+        //    DataContext = new LoginViewModel(() =>
+        //    {
+        //        Application.Current.Dispatcher.Invoke(() =>
+        //        {
+        //            new MainWindow().Show(); // 👈 mở cửa sổ chính sau đăng nhập
+        //            this.Close(); // đóng cửa sổ đăng nhập
+        //        });
+        //    });
+        //}
 
         private void Register_Click(object sender, RoutedEventArgs e)
         {

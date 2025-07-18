@@ -11,5 +11,8 @@
     <Compile Update="Views\RegisterView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ScoreBoard.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

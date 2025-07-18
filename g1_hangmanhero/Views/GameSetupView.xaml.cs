@@ -17,14 +17,14 @@ namespace g1_hangmanhero.Views
     /// <summary>
     /// Interaction logic for GameSetupView.xaml
     /// </summary>
-    public partial class GameSetupView : Window
-    {
-        private readonly ViewModels.GameSetupViewModel _viewModel;
-        public GameSetupView()
-        {
-            InitializeComponent();
-            DataContext = new ViewModels.GameSetupViewModel();
+    //public partial class GameSetupView : Window
+    //{
+    //    private readonly ViewModels.GameSetupViewModel _viewModel;
+    //    public GameSetupView()
+    //    {
+    //        InitializeComponent();
+    //        DataContext = new ViewModels.GameSetupViewModel();
 
-        }
-    }
+    //    }
+    //}
 }

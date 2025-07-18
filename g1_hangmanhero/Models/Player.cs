@@ -1,17 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace g1_hangmanhero.Models
+namespace g1_hangmanhero.Models;
+
+public partial class Player
 {
-    public class Player
-    {
-        public int PlayerId { get; set; }
-        public string Username { get; set; }
-        public string PasswordHash { get; set; } // Store hashed passwords
-        public DateTime JoinDate { get; set; }
-        public string DefaultDifficulty { get; set; } = "Easy"; // Default difficulty
-    }
+    public int PlayerId { get; set; }
+
+    public string Username { get; set; } = null!;
+
+    public string PasswordHash { get; set; } = null!;
+
+    public DateTime? JoinDate { get; set; }
+
+    public string DefaultDifficulty { get; set; } = null!;
+
+    public virtual ICollection<GameHistory> GameHistories { get; set; } = new List<GameHistory>();
 }
