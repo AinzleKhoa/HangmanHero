@@ -79,7 +79,8 @@ namespace g1_hangmanhero.Services
         public void VerifyLetterAndUpdate(char letter)
         {
             letter = char.ToUpper(letter);
-            if (!_guessedLetters.Contains(letter))
+
+            if (!_guessedLetters.Contains(letter)) // If the letter hasn't been guessed before
             {
                 _guessedLetters.Add(letter);
                 bool isCorrect = _currentWord.Text.ToUpper().Contains(letter);
@@ -110,8 +111,8 @@ namespace g1_hangmanhero.Services
 
         public string GetCurrentWordState()
         {
-            return string.Concat(_currentWord.Text.Select(c =>
-            _guessedLetters.Contains(char.ToUpper(c)) ? c : '_'));
+            return string.Join(" ", _currentWord.Text.Select(c =>
+                _guessedLetters.Contains(char.ToUpper(c)) ? c.ToString() : "_"));
         }
 
         //

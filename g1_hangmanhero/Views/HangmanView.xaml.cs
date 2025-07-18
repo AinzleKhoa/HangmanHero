@@ -24,7 +24,25 @@ namespace g1_hangmanhero.Views
         public HangmanView()
         {
             InitializeComponent();
+            GuessedLetterTextBox.Focus();
             this.DataContext = new HangmanViewModel(new HangmanHeroContext()); // Set the DataContext
+        }
+
+        // This method will be triggered when the user types in the input field
+        private void GuessedLetterTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            var viewModel = this.DataContext as HangmanViewModel;
+            if (viewModel != null)
+            {
+                // Execute the GuessCommand automatically when the text is changed
+                viewModel.GuessCommand.Execute(null);
+            }
+        }
+
+        // Focus on the TextBox when the view is loaded
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            GuessedLetterTextBox.Focus();  // Automatically focus the TextBox on load
         }
     }
 }
