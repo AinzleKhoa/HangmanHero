@@ -11,8 +11,8 @@
 
     <Grid Background="#F0F0F0">
         <StackPanel VerticalAlignment="Center" Margin="40">
-            <TextBlock Text="Hangman Hero" FontSize="36" FontWeight="Bold" 
-                       HorizontalAlignment="Center" Margin="0,0,0,40" Foreground="Green"/>
+            <TextBlock Text="Hangman Game" FontSize="36" FontWeight="Bold" 
+           HorizontalAlignment="Center" Margin="0,0,0,40" Foreground="Red"/>
 
             <Button Content="Start Game" 
                     Command="{Binding NavigateToGameSetupCommand}" 

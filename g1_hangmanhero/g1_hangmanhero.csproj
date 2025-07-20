@@ -9,6 +9,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\hangman0.png" />
+    <None Remove="Images\hangman1.png" />
+    <None Remove="Images\hangman2.png" />
+    <None Remove="Images\hangman3.png" />
+    <None Remove="Images\hangman4.png" />
+    <None Remove="Images\hangman5.png" />
+    <None Remove="Images\hangman6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.7">
       <PrivateAssets>all</PrivateAssets>
@@ -19,6 +29,16 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\hangman0.png" />
+    <Resource Include="Images\hangman1.png" />
+    <Resource Include="Images\hangman2.png" />
+    <Resource Include="Images\hangman3.png" />
+    <Resource Include="Images\hangman4.png" />
+    <Resource Include="Images\hangman5.png" />
+    <Resource Include="Images\hangman6.png" />
   </ItemGroup>
 
 </Project>

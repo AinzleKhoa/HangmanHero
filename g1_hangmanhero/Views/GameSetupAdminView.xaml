@@ -14,8 +14,8 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0">
-            <TextBlock Text="Hangman Hero - Admin" FontSize="36" FontWeight="Bold" 
-           HorizontalAlignment="Center" Margin="0,0,0,40" Foreground="Green"/>
+            <TextBlock Text="Hangman Game - Admin" FontSize="36" FontWeight="Bold" 
+           HorizontalAlignment="Center" Margin="0,0,0,40" Foreground="Red"/>
 
             <TextBlock Text="Current User: " FontWeight="Bold" VerticalAlignment="Center"/>
             <TextBlock Text="{Binding CurrentUserName}" FontWeight="Bold" VerticalAlignment="Center" Margin="100,0,0,0"/>

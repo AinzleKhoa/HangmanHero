@@ -7,6 +7,8 @@ using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
 
 namespace g1_hangmanhero.ViewModels
 {
@@ -68,13 +70,6 @@ namespace g1_hangmanhero.ViewModels
             set { _currentWordState = value; OnPropertyChanged(); }
         }
 
-        private int _remainingLives;
-        public int RemainingLives
-        {
-            get { return _remainingLives; }
-            set { _remainingLives = value; OnPropertyChanged(); }
-        }
-
         private int _score;
         public int Score
         {
@@ -87,6 +82,27 @@ namespace g1_hangmanhero.ViewModels
         {
             get { return _isGameOver; }
             set { _isGameOver = value; OnPropertyChanged(); }
+        }
+
+        private int _remainingLives;
+        public int RemainingLives
+        {
+            get { return _remainingLives; }
+            set
+            {
+                _remainingLives = value;
+                OnPropertyChanged();
+
+                // Update the visibility of hangman images based on remaining lives
+                UpdateHangmanImage();
+            }
+        }
+
+        private ImageSource _hangmanImageSource;
+        public ImageSource HangmanImageSource
+        {
+            get { return _hangmanImageSource; }
+            set { _hangmanImageSource = value; OnPropertyChanged(); }
         }
 
         private void OnGuess()
@@ -185,6 +201,18 @@ namespace g1_hangmanhero.ViewModels
             Round = _gameEngine.GetRound();
             IsGameOver = false;
             GuessedLetter = string.Empty;
+        }
+
+        private void UpdateHangmanImage()
+        {
+            // Define the path for the images stored as resources
+            string baseImagePath = "pack://application:,,,/Images/hangman";
+
+            // Map the remaining lives to the appropriate hangman image
+            string imageFileName = $"{baseImagePath}{6 - RemainingLives}.png";
+
+            // Set the ImageSource property to load the image from resources
+            HangmanImageSource = new BitmapImage(new Uri(imageFileName));
         }
     }
 }

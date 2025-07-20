@@ -5,34 +5,38 @@
         Title="Hangman Hero" Height="400" Width="600">
     <Grid Margin="20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
+        <!-- Hangman Images with visibility bindings -->
+        <Image Grid.Row="0" Name="HangmanImage" Width="150" Height="200" HorizontalAlignment="Center" VerticalAlignment="Top"
+       Source="{Binding HangmanImageSource}" />
+
         <!-- Word State -->
-        <TextBlock Grid.Row="0" Text="{Binding CurrentWordState}" FontSize="24" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Text="{Binding CurrentWordState}" FontSize="24" HorizontalAlignment="Center"/>
 
         <!-- Game Result Message -->
-        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="Current Topic: " FontSize="18" HorizontalAlignment="Center"/>
             <TextBlock Text="{Binding Topic}" FontSize="18" Foreground="Red" HorizontalAlignment="Center"/>
         </StackPanel>
 
         <!-- Lives and Score -->
-        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
             <TextBlock Text="Lives: " FontSize="16"/>
             <TextBlock Text="{Binding RemainingLives}" FontSize="16"/>
             <TextBlock Text=" Score: " FontSize="16"/>
-            <TextBlock Text="{Binding Score}" FontSize="16"/>            
+            <TextBlock Text="{Binding Score}" FontSize="16"/>
             <TextBlock Text=" Round: " FontSize="16"/>
             <TextBlock Text="{Binding Round}" FontSize="16"/>
         </StackPanel>
 
         <!-- Input and Buttons -->
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20">
             <TextBox x:Name="GuessedLetterTextBox"
                      Text="{Binding GuessedLetter, UpdateSourceTrigger=PropertyChanged}"
                      Width="50" MaxLength="1"

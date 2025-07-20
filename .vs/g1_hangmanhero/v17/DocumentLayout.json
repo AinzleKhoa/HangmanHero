@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "E:\\D\\.github\\HangmanHero\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\scoreboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\scoreboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -43,6 +27,42 @@
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\hangmanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\hangmanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\gamesetupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\gamesetupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\summaryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\summaryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -55,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\scoreboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\hangmanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\hangmanview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,10 +107,6 @@
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\historyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|e:\\d\\.github\\hangmanhero\\g1_hangmanhero\\views\\gamesetupadminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupadminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -126,7 +134,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -142,29 +150,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T18:08:22.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GameSetupViewModel.cs",
+              "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T17:32:01.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HangmanView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HangmanView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HangmanView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HangmanView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\HangmanView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T17:09:44.86Z"
+              "WhenOpened": "2025-07-20T17:09:44.86Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "GameSetupAdminView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T17:09:32.543Z"
+              "WhenOpened": "2025-07-20T17:09:32.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "SummaryView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\SummaryView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\SummaryView.xaml.cs",
@@ -176,18 +212,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "SummaryView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\SummaryView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\SummaryView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\SummaryView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\SummaryView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T15:17:44.154Z"
+              "WhenOpened": "2025-07-20T15:17:44.154Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "RegisterView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\RegisterView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\RegisterView.xaml.cs",
@@ -199,18 +236,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "GameSetupView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\GameSetupView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\GameSetupView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T13:03:27.93Z"
+              "WhenOpened": "2025-07-20T13:03:27.93Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\ViewModelBase.cs",
@@ -222,7 +260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
@@ -234,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "LoginView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\LoginView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\LoginView.xaml.cs",
@@ -246,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
@@ -258,18 +296,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "LoginView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\LoginView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\LoginView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\LoginView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T12:34:19.894Z"
+              "WhenOpened": "2025-07-20T12:34:19.894Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "HistoryView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HistoryView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HistoryView.xaml.cs",
@@ -281,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "GameSetupAdminView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
@@ -293,18 +332,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "HistoryView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HistoryView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HistoryView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HistoryView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\HistoryView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T08:42:13.326Z"
+              "WhenOpened": "2025-07-20T08:42:13.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\MainWindow.xaml.cs",
@@ -316,18 +356,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\MainWindow.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\MainWindow.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\MainWindow.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T08:37:14.567Z"
+              "WhenOpened": "2025-07-20T08:37:14.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "SummaryViewModel.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
@@ -339,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "RelayCommand.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\RelayCommand.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\RelayCommand.cs",
@@ -351,18 +392,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\App.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\App.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\App.xaml",
               "RelativeToolTip": "g1_hangmanhero\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T07:54:46.53Z"
+              "WhenOpened": "2025-07-20T07:54:46.53Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Word.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Models\\Word.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\Word.cs",
@@ -374,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "GameHistory.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Models\\GameHistory.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\GameHistory.cs",
@@ -386,7 +428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Player.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Models\\Player.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\Player.cs",
@@ -398,7 +440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "ScoreboardView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\ScoreboardView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\ScoreboardView.xaml.cs",
@@ -410,18 +452,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ScoreboardView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\ScoreboardView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\ScoreboardView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\ScoreboardView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\ScoreboardView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T06:28:04.562Z"
+              "WhenOpened": "2025-07-20T06:28:04.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "GameSetupAdminViewModel.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
@@ -429,55 +472,59 @@
               "RelativeToolTip": "g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:19:55.569Z"
+              "WhenOpened": "2025-07-20T06:19:55.569Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "HangmanViewModel.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
               "RelativeToolTip": "g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAswL4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAqwNYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:22:19.801Z"
+              "WhenOpened": "2025-07-20T06:22:19.801Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 14,
               "Title": "GameEngine.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Services\\GameEngine.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Services\\GameEngine.cs",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Services\\GameEngine.cs",
               "RelativeToolTip": "g1_hangmanhero\\Services\\GameEngine.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAuwHEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwH0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T06:22:15.429Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "HangmanView.xaml.cs",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HangmanView.xaml.cs",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HangmanView.xaml.cs",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\HangmanView.xaml.cs",
               "RelativeToolTip": "g1_hangmanhero\\Views\\HangmanView.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAmwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T06:22:05.307Z"
+              "WhenOpened": "2025-07-20T06:22:05.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 2,
               "Title": "RegisterView.xaml",
               "DocumentMoniker": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\RegisterView.xaml",
               "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\RegisterView.xaml",
               "ToolTip": "E:\\D\\.github\\HangmanHero\\g1_hangmanhero\\Views\\RegisterView.xaml",
               "RelativeToolTip": "g1_hangmanhero\\Views\\RegisterView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-07-20T06:19:45.296Z"
+              "WhenOpened": "2025-07-20T06:19:45.296Z",
+              "EditorCaption": ""
             }
           ]
         },
