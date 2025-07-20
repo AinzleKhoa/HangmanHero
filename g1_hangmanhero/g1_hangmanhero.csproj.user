@@ -2,10 +2,22 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
+    <Compile Update="Views\GameSetupAdminView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\GameSetupView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\HistoryView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\RegisterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ScoreboardView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SummaryView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

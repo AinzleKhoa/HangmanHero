@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace g1_hangmanhero.Views
 {
-    /// <summary>
-    /// Interaction logic for Login.xaml
-    /// </summary>
+
     public partial class LoginView : Window
     {
         public LoginView()
@@ -26,11 +24,23 @@ namespace g1_hangmanhero.Views
 
             DataContext = new LoginViewModel(() =>
             {
-                Application.Current.Dispatcher.Invoke(() =>
+                var viewModel = this.DataContext as LoginViewModel;
+
+                if (viewModel?.LoggedInUser != null)
                 {
-                    new MainWindow().Show(); // 👈 mở cửa sổ chính sau đăng nhập
-                    this.Close(); // đóng cửa sổ đăng nhập
-                });
+                    if (viewModel.LoggedInUser.Role == 1) 
+                    {
+                        var gameSetupAdminView = new GameSetupAdminView(viewModel.LoggedInUser);
+                        gameSetupAdminView.Show();
+                    }
+                    else
+                    {
+                        var mainWindoView = new MainWindow(viewModel.LoggedInUser);
+                        mainWindoView.Show();
+                    }
+
+                    this.Close(); 
+                }
             });
         }
 

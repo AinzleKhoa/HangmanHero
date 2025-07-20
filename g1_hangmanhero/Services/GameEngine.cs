@@ -1,10 +1,8 @@
-﻿using System;
+﻿using g1_hangmanhero.Data;
+using g1_hangmanhero.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using g1_hangmanhero.Data;
-using g1_hangmanhero.Models;
 
 namespace g1_hangmanhero.Services
 {
@@ -17,6 +15,7 @@ namespace g1_hangmanhero.Services
         private int _lives;
         private int _score;
         private int _mistakes;
+        private int _round;
         private DateTime _startTime;
         private readonly int _maxLives = 6;
 
@@ -27,52 +26,65 @@ namespace g1_hangmanhero.Services
             _lives = _maxLives;
             _score = 0;
             _mistakes = 0;
+            _round = 0;
         }
 
-        public bool StartGame(int playerId, string difficulty, string category)
+        public bool StartGame(string difficulty, string category)
+        {
+            RandomGeneration(difficulty, category);
+            Init();
+            _round = 1;  // Set the initial round to 1
+            return true;
+        }
+
+        public void StartNewRound(string difficulty, string category)
+        {
+            RandomGeneration(difficulty, category);
+            _guessedLetters.Clear();  // Clear guessed letters for the new round
+            _round++;  // Increment the round
+        }
+
+        private void RandomGeneration(string difficulty, string category)
         {
             var words = _context.Words
                 .Where(w => w.Difficulty == difficulty && w.Category == category)
                 .ToList();
 
-            if (!words.Any()) return false;
+            if (!words.Any()) throw new Exception("No words available for this difficulty and category.");
 
             _currentWord = words[_random.Next(words.Count)];
+        }
+
+        private void Init()
+        {
             _guessedLetters.Clear();
             _lives = _maxLives;
             _score = 0;
             _mistakes = 0;
             _startTime = DateTime.Now;
-            return true;
         }
 
-        public int GetRemainingLives()
-        {
-            return _lives;
-        }
+        public int GetRound() => _round;
 
-        public int GetScore()
-        {
-            return _score;
-        }
+        public int AddOneMoreRound() => _round++;
 
-        public bool IsGameWon()
-        {
-            return _currentWord.Text.All(c => _guessedLetters.Contains(char.ToUpper(c)));
-        }
+        public int GetRemainingLives() => _lives;
 
-        public bool IsGameLost()
-        {
-            return _lives <= 0;
-        }
+        public int GetScore() => _score;
 
-        public (bool isValid, string ErrorMessage) ValidateGuess(char letter)
+        public bool IsGameOver() => _lives <= 0;
+
+        public bool isAllCorrect() => _currentWord.Text.All(c => _guessedLetters.Contains(char.ToUpper(c)));
+
+        public (bool isValid, string errorMessage) ValidateGuess(char letter)
         {
             if (!char.IsLetter(letter))
                 return (false, "Please enter a valid letter (A-Z).");
+
             letter = char.ToUpper(letter);
             if (_guessedLetters.Contains(letter))
                 return (false, "This letter has already been guessed.");
+
             return (true, string.Empty);
         }
 
@@ -80,19 +92,19 @@ namespace g1_hangmanhero.Services
         {
             letter = char.ToUpper(letter);
 
-            if (!_guessedLetters.Contains(letter)) // If the letter hasn't been guessed before
+            if (!_guessedLetters.Contains(letter))
             {
                 _guessedLetters.Add(letter);
                 bool isCorrect = _currentWord.Text.ToUpper().Contains(letter);
 
                 if (isCorrect)
                 {
-                    _score += CalculateScoreForCorrectGuess(); // Increase score for correct guess
+                    _score += CalculateScoreForCorrectGuess();
                 }
                 else
                 {
-                    _lives--;   // Decrease lives for incorrect guess
-                    _mistakes++; // Increase mistake count for incorrect guess
+                    _lives--;
+                    _mistakes++;
                 }
             }
         }
@@ -109,62 +121,17 @@ namespace g1_hangmanhero.Services
             };
         }
 
+        // Get the current word state (e.g., "_ _ _ a")
         public string GetCurrentWordState()
         {
             return string.Join(" ", _currentWord.Text.Select(c =>
                 _guessedLetters.Contains(char.ToUpper(c)) ? c.ToString() : "_"));
         }
 
-        //
-        public void SaveGameResult(int playerId)
-        {
-            // Get the player from the database based on the playerId
-            var player = _context.Players.FirstOrDefault(p => p.PlayerId == playerId);
+        public int GetMistakes() => _mistakes;
 
-            // If no player exists with the given playerId, handle the case (could throw error or return)
-            if (player == null)
-            {
-                throw new Exception("Player not found.");
-            }
+        public DateTime GetStartTime() => _startTime;
 
-            // Calculate time taken in seconds
-            var timeTaken = (int)(DateTime.Now - _startTime).TotalSeconds;
-
-            // Check if a game history already exists for this player
-            var existingGameHistory = _context.GameHistories
-                                              .FirstOrDefault(gh => gh.player.PlayerId == playerId);
-
-            // If a game history exists, update it; otherwise, create a new one
-            if (existingGameHistory != null)
-            {
-                // Update the existing game history record (if needed)
-                existingGameHistory.Score = _score;
-                existingGameHistory.Mistakes = _mistakes;
-                existingGameHistory.TimeTaken = timeTaken;
-                existingGameHistory.PlayedAt = DateTime.Now;
-
-                // Save the changes
-                _context.GameHistories.Update(existingGameHistory);
-            }
-            else
-            {
-                // Create a new GameHistory object
-                var gameHistory = new GameHistory
-                {
-                    player = player, // Associate the player with the game history
-                    word = _currentWord, // Assuming _currentWord is the word used in the game
-                    Score = _score,
-                    Mistakes = _mistakes,
-                    TimeTaken = timeTaken,
-                    PlayedAt = DateTime.Now
-                };
-
-                // Add the new game history
-                _context.GameHistories.Add(gameHistory);
-            }
-
-            // Save the changes to the database
-            _context.SaveChanges();
-        }
+        public Word GetCurrentWord() => _currentWord;
     }
 }

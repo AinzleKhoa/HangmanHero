@@ -11,20 +11,28 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using g1_hangmanhero.Models;
+using g1_hangmanhero.ViewModels;
 
 namespace g1_hangmanhero.Views
 {
-    /// <summary>
-    /// Interaction logic for GameSetupView.xaml
-    /// </summary>
     public partial class GameSetupView : Window
     {
-        private readonly ViewModels.GameSetupViewModel _viewModel;
-        public GameSetupView()
+        private readonly Player _currentUser;
+        private readonly GameSetupViewModel _viewModel;
+        public GameSetupView(Player loggedInPlayer)
         {
+            _currentUser = loggedInPlayer;
             InitializeComponent();
-            DataContext = new ViewModels.GameSetupViewModel();
+            _viewModel = new GameSetupViewModel(loggedInPlayer, this);
+            DataContext = _viewModel;
+        }
 
+        private void Logout_click(object sender, RoutedEventArgs e)
+        {
+            var menu = new MainWindow(_currentUser);
+            menu.Show();
+            this.Close();
         }
     }
 }

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using g1_hangmanhero.Data;
+using g1_hangmanhero.Models;
 using g1_hangmanhero.ViewModels;
 
 namespace g1_hangmanhero.Views
@@ -21,22 +22,11 @@ namespace g1_hangmanhero.Views
     /// </summary>
     public partial class HangmanView : Window
     {
-        public HangmanView()
+        public HangmanView(Player loggedInPlayer, string category)
         {
             InitializeComponent();
             GuessedLetterTextBox.Focus();
-            this.DataContext = new HangmanViewModel(new HangmanHeroContext()); // Set the DataContext
-        }
-
-        // This method will be triggered when the user types in the input field
-        private void GuessedLetterTextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            var viewModel = this.DataContext as HangmanViewModel;
-            if (viewModel != null)
-            {
-                // Execute the GuessCommand automatically when the text is changed
-                viewModel.GuessCommand.Execute(null);
-            }
+            this.DataContext = new HangmanViewModel(loggedInPlayer, category, this);
         }
 
         // Focus on the TextBox when the view is loaded

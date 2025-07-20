@@ -1,4 +1,5 @@
 ﻿using g1_hangmanhero.Data;
+using g1_hangmanhero.Models;
 using g1_hangmanhero.Views;
 using System;
 using System.ComponentModel;
@@ -17,14 +18,17 @@ namespace g1_hangmanhero.ViewModels
         public string Username { get; set; }
         public string StatusMessage { get; set; }
 
+        public Player LoggedInUser { get; private set; }
         public ICommand LoginCommand { get; }
 
         private readonly Action onLoginSuccess;
 
+      
         public LoginViewModel(Action onLoginSuccess = null)
         {
             this.onLoginSuccess = onLoginSuccess;
             LoginCommand = new RelayCommand(Login);
+
         }
 
 
@@ -40,12 +44,13 @@ namespace g1_hangmanhero.ViewModels
                 if (user != null)
                 {
                     StatusMessage = "Login successful!";
+                    this.LoggedInUser = user;
                     onLoginSuccess?.Invoke();
-                    // TODO: Mở GameView
                 }
                 else
                 {
                     StatusMessage = "Invalid username or password.";
+                    this.LoggedInUser = null; // Đảm bảo là null nếu t
                 }
             }
 

@@ -11,11 +11,12 @@ namespace g1_hangmanhero.Models
     {
         [Key]
         public int GameId { get; set; }
-        public Player player { get; set; }
-        public Word word { get; set; }
+
         public int Score { get; set; }
         public int Mistakes { get; set; }
         public int TimeTaken { get; set; }
-        public DateTime PlayedAt { get; set; }
+        public DateTime? PlayedAt { get; set; }
+        public virtual Player Player { get; set; }
+        public virtual Word Word { get; set; }
     }
 }

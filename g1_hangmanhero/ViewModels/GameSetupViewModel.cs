@@ -3,112 +3,112 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Input;
-using g1_hangmanhero.Data;     // Required for HangmanHeroContext
-using g1_hangmanhero.Models;   // Required for Player, Word, and Enums
+using g1_hangmanhero.Data;
+using g1_hangmanhero.Models;
+using g1_hangmanhero.Views;
 
 namespace g1_hangmanhero.ViewModels
 {
-    // -----------------------------------------------------------------
-    //  MAIN VIEWMODEL: GameSetupViewModel
-    // -----------------------------------------------------------------
     public class GameSetupViewModel : ViewModelBase
     {
         private readonly Player _currentUser;
+        public List<string> AvailableDifficulties { get; private set; }
+        public List<string> AvailableCategories { get; private set; }
 
-        // --- Properties for Data Binding ---
-        public IEnumerable<Difficulty> AvailableDifficulties => Enum.GetValues(typeof(Difficulty)).Cast<Difficulty>();
-        public IEnumerable<Category> AvailableCategories => Enum.GetValues(typeof(Category)).Cast<Category>();
+        private readonly Window _currentWindow;  // Reference to the current window
 
-        private Difficulty _selectedDifficulty;
-        public Difficulty SelectedDifficulty
+        private string _selectedDifficulty;
+        public string SelectedDifficulty
         {
             get => _selectedDifficulty;
-            set { _selectedDifficulty = value; OnPropertyChanged(); }
+            set
+            {
+                _selectedDifficulty = value;
+                OnPropertyChanged(); 
+            }
         }
 
-        private Category _selectedCategory;
-        public Category SelectedCategory
+        private string _selectedCategory;
+        public string SelectedCategory
         {
             get => _selectedCategory;
-            set { _selectedCategory = value; OnPropertyChanged(); }
+            set
+            {
+                _selectedCategory = value;
+                OnPropertyChanged(); 
+            }
         }
 
-        // --- Command ---
         public ICommand StartGameCommand { get; }
 
-
-        // --- NEW CONSTRUCTOR (for testing) ---
-        public GameSetupViewModel()
-        {
-            // Create a fake player for testing purposes
-            _currentUser = new Player
-            {
-                PlayerId = 99,
-                Username = "TestUser",
-                DefaultDifficulty = "Medium"
-            };
-
-            // Initialize the rest of the ViewModel as normal
-            StartGameCommand = new RelayCommand(ExecuteStartGame);
-            LoadDefaultSettings();
-        }
-        // --- Constructor ---
-        public GameSetupViewModel(Player loggedInPlayer)
+        public GameSetupViewModel(Player loggedInPlayer, Window thisWindow)
         {
             _currentUser = loggedInPlayer ?? throw new ArgumentNullException(nameof(loggedInPlayer));
 
-            StartGameCommand = new RelayCommand(ExecuteStartGame);
+            _currentWindow = thisWindow;
+
+            StartGameCommand = new RelayCommand(ExecuteStartGame, CanExecuteStartGame);
+
+            LoadGameOptions();
             LoadDefaultSettings();
         }
 
-        // --- Logic Methods ---
-        private void LoadDefaultSettings()
-        {
-            if (Enum.TryParse(_currentUser.DefaultDifficulty, true, out Difficulty defaultDifficulty))
-            {
-                SelectedDifficulty = defaultDifficulty;
-            }
-            else
-            {
-                SelectedDifficulty = Difficulty.Easy; // Fallback
-            }
-
-            SelectedCategory = AvailableCategories.FirstOrDefault();
-        }
-
-        private void ExecuteStartGame(object? parameter)
+        private void LoadGameOptions()
         {
             try
             {
                 using (var db = new HangmanHeroContext())
                 {
-                    string difficultyString = SelectedDifficulty.ToString();
-                    string categoryString = SelectedCategory.ToString();
-
-                    var wordPool = db.Words
-                                     .Where(w => w.Difficulty == difficultyString && w.Category == categoryString)
-                                     .ToList();
-
-                    if (!wordPool.Any())
-                    {
-                        MessageBox.Show($"Không tìm thấy từ nào cho Độ khó: {SelectedDifficulty} và Chủ đề: {SelectedCategory}.", "Không có từ", MessageBoxButton.OK, MessageBoxImage.Information);
-                        return;
-                    }
-
-                    var random = new Random();
-                    var wordToGuess = wordPool[random.Next(wordPool.Count)];
-
-                    MessageBox.Show($"Sẵn sàng chơi với từ: '{wordToGuess.Text}'!", "Bắt đầu!");
-
-                    // TODO: Chuyển hướng đến màn hình chơi game (GamePlayView)
-                    // var gamePlayView = new GamePlayView();
-                    // gamePlayView.DataContext = new GamePlayViewModel(wordToGuess, _currentUser);
-                    // gamePlayView.Show();
+                    AvailableDifficulties = db.Words.Select(w => w.Difficulty).Distinct().ToList();
+                    AvailableCategories = db.Words.Select(w => w.Category).Distinct().ToList();
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Could not load game settings: {ex.Message}", "Database Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                AvailableDifficulties = new List<string>();
+                AvailableCategories = new List<string>();
             }
-        }}
+        }
+        private void LoadDefaultSettings()
+        {
+            SelectedDifficulty = AvailableDifficulties.Contains(_currentUser.DefaultDifficulty)
+                ? _currentUser.DefaultDifficulty
+                : AvailableDifficulties.FirstOrDefault();
+
+            SelectedCategory = AvailableCategories.FirstOrDefault();
+        }
+
+        private bool CanExecuteStartGame(object parameter)
+        {
+            return !string.IsNullOrEmpty(SelectedDifficulty) && !string.IsNullOrEmpty(SelectedCategory);
+        }
+
+        private void ExecuteStartGame(object parameter)
+        {
+            try
+            {
+                using (var db = new HangmanHeroContext())
+                {
+                    var wordPool = db.Words
+                        .Where(w => w.Difficulty == SelectedDifficulty && w.Category == SelectedCategory)
+                        .ToList();
+
+                    if (!wordPool.Any())
+                    {
+                        MessageBox.Show($"No words found for Difficulty: {SelectedDifficulty} and Category: {SelectedCategory}.", "No Words Found", MessageBoxButton.OK, MessageBoxImage.Information);
+                        return;
+                    }
+
+                    var hangmanView = new HangmanView(_currentUser, _selectedCategory);
+                    hangmanView.Show();
+                    _currentWindow.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred while starting the game: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
     }
+}

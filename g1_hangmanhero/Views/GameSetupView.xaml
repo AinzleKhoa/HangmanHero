@@ -5,43 +5,37 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:g1_hangmanhero.Views"
         mc:Ignorable="d"
-        Title="Game Setup" 
-        Height="320" 
-        Width="400"
-        WindowStartupLocation="CenterScreen" 
-        ResizeMode="NoResize">
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Title="GameSetupView" Height="380" Width="400">
+    <Grid Margin="20">
+        <StackPanel>
+            <TextBlock Text="Game Settings" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
 
-    <Grid>
-        <StackPanel Margin="25">
-            <TextBlock Text="Game Settings" 
-                       FontSize="24" 
-                       FontWeight="Bold" 
-                       HorizontalAlignment="Center" 
-                       Margin="0,0,0,20"/>
+            <TextBlock Text="Difficulty:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+            <ComboBox ItemsSource="{Binding AvailableDifficulties}" 
+                      SelectedItem="{Binding SelectedDifficulty}" 
+                      FontSize="14" Padding="5"/>
 
-            <TextBlock Text="Difficulty:" 
-                       FontWeight="SemiBold" 
-                       Margin="0,0,0,5"/>
-            <ComboBox ItemsSource="{Binding AvailableDifficulties}"
-                      SelectedItem="{Binding SelectedDifficulty}"
-                      FontSize="14" 
-                      Padding="5"/>
-
-            <TextBlock Text="Category:" 
-                       FontWeight="SemiBold" 
-                       Margin="0,15,0,5"/>
-            <ComboBox ItemsSource="{Binding AvailableCategories}"
-                      SelectedItem="{Binding SelectedCategory}"
-                      FontSize="14" 
-                      Padding="5"/>
+            <TextBlock Text="Category:" FontWeight="SemiBold" Margin="0,15,0,5"/>
+            <ComboBox ItemsSource="{Binding AvailableCategories}" 
+                      SelectedItem="{Binding SelectedCategory}" 
+                      FontSize="14" Padding="5"/>
 
             <Button Content="Start Game" 
                     Command="{Binding StartGameCommand}"
-                    FontSize="16" 
-                    FontWeight="Bold" 
-                    Margin="0,30,0,0" 
-                    Padding="12" 
-                    Cursor="Hand"/>
+                    FontSize="16" FontWeight="Bold" Margin="0,30,0,0" Padding="12"/>
+
+            <Button Content="Back"
+                    Width="50"
+                    Height="30"
+                    Margin="10"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    FontWeight="Bold"
+                    Background="Gray"
+                    Foreground="White" Click="Logout_click"
+                    />
         </StackPanel>
     </Grid>
 </Window>

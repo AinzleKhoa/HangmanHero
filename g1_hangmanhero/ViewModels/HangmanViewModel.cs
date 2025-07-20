@@ -1,44 +1,55 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
-using g1_hangmanhero.Data;
+﻿using g1_hangmanhero.Data;
+using g1_hangmanhero.Models;
 using g1_hangmanhero.Services;
+using g1_hangmanhero.Views;
+using Microsoft.EntityFrameworkCore;
+using System;
+using System.Linq;
+using System.Windows;
+using System.Windows.Input;
 
 namespace g1_hangmanhero.ViewModels
 {
     public class HangmanViewModel : ViewModelBase
     {
+        private readonly Player _currentUser;
         private readonly GameEngine _gameEngine;
         private readonly HangmanHeroContext _context;
-        private int _playerId = 4;
+        private int _playerId;
         private string _difficulty;
         private string _category;
+        private readonly Window _currentWindow;
 
-        public HangmanViewModel(HangmanHeroContext context)
+        public HangmanViewModel(Player loggedInPlayer, string category, Window currentWindow)
         {
-            _context = context;
-            _gameEngine = new GameEngine(context);
+            _currentUser = loggedInPlayer ?? throw new ArgumentNullException(nameof(loggedInPlayer));
 
-            GuessCommand = new RelayCommand(_ => OnGuess(), CanGuess);
-            StartNewGameCommand = new RelayCommand(_ => StartNewGame(), CanStartNewGame);
+            _context = new HangmanHeroContext();
+            _gameEngine = new GameEngine(_context);
+
+            _playerId = _currentUser.PlayerId;
+            _difficulty = _currentUser.DefaultDifficulty;
+            _category = category;
+            _currentWindow = currentWindow;
+
+            StartNewGame();
         }
-        public ICommand GuessCommand { get; }
-        public ICommand StartNewGameCommand { get; }
 
-
-        private string _errorMessage;
-
-        public string ErrorMessage
+        private string _topic;
+        public string Topic
         {
-            get { return _errorMessage; }
-            set { _errorMessage = value; OnPropertyChanged(); }
+            get { return _topic; }
+            set { _topic = value; OnPropertyChanged(); }
+        }        
+        
+        private int _round;
+        public int Round
+        {
+            get { return _round; }
+            set { _round = value; OnPropertyChanged(); }
         }
 
         private string _guessedLetter;
-
         public string GuessedLetter
         {
             get { return _guessedLetter; }
@@ -46,12 +57,11 @@ namespace g1_hangmanhero.ViewModels
             {
                 _guessedLetter = value;
                 OnPropertyChanged();
-                ErrorMessage = string.Empty;
+                OnGuess();
             }
         }
 
         private string _currentWordState;
-
         public string CurrentWordState
         {
             get { return _currentWordState; }
@@ -59,7 +69,6 @@ namespace g1_hangmanhero.ViewModels
         }
 
         private int _remainingLives;
-
         public int RemainingLives
         {
             get { return _remainingLives; }
@@ -67,7 +76,6 @@ namespace g1_hangmanhero.ViewModels
         }
 
         private int _score;
-
         public int Score
         {
             get { return _score; }
@@ -75,69 +83,98 @@ namespace g1_hangmanhero.ViewModels
         }
 
         private bool _isGameOver;
-
         public bool IsGameOver
         {
             get { return _isGameOver; }
             set { _isGameOver = value; OnPropertyChanged(); }
         }
 
-        private string _gameResultMessage;
-
-        public string GameResultMessage
-        {
-            get { return _gameResultMessage; }
-            set { _gameResultMessage = value; OnPropertyChanged(); }
-        }
-
-
         private void OnGuess()
         {
-            // Make sure the whole textbox  it is not empty
             if (string.IsNullOrEmpty(GuessedLetter) || GuessedLetter.Length != 1)
             {
-                _errorMessage = "Please enter a single letter.";
                 return;
             }
 
-            // Validation a character
             char letter = GuessedLetter[0];
             var (isValid, errorMessage) = _gameEngine.ValidateGuess(letter);
             if (!isValid)
             {
-                ErrorMessage = errorMessage;
                 return;
             }
 
-            // Verify is it correct and update
             _gameEngine.VerifyLetterAndUpdate(letter);
 
             CurrentWordState = _gameEngine.GetCurrentWordState();
             RemainingLives = _gameEngine.GetRemainingLives();
             Score = _gameEngine.GetScore();
-            GuessedLetter = string.Empty; // Restart guessedletter
+            GuessedLetter = string.Empty;
 
-            if (_gameEngine.IsGameWon())
+            if (_gameEngine.IsGameOver())
             {
-                IsGameOver = true;
-                GameResultMessage = "Congratulations! You Won!";
-                _gameEngine.SaveGameResult(_playerId);
+                SaveGameResult();
             }
-            else if (_gameEngine.IsGameLost())
+            if (_gameEngine.isAllCorrect())
             {
-                IsGameOver = true;
-                GameResultMessage = "Game Over! You lost.";
-                _gameEngine.SaveGameResult(_playerId);
+                StartNewRound();
+            }
+        }
+
+        private void StartNewRound()
+        {
+            _gameEngine.StartNewRound(_difficulty, _category);  // Start new round with new word
+            CurrentWordState = _gameEngine.GetCurrentWordState();
+            RemainingLives = _gameEngine.GetRemainingLives();
+            Score = _gameEngine.GetScore();
+            Round = _gameEngine.GetRound();
+            Topic = _category;
+            IsGameOver = false;
+            GuessedLetter = string.Empty;
+        }
+
+        private void SaveGameResult()
+        {
+            // Ensure that _currentUser is tracked in the current context
+            var player = _context.Players.FirstOrDefault(p => p.PlayerId == _currentUser.PlayerId);
+            if (player != null)
+            {
+                // Create the GameHistory object
+                var gameHistory = new GameHistory
+                {
+                    Player = player,  // Use the tracked player from the context
+                    Word = _gameEngine.GetCurrentWord(),
+                    Score = Score,
+                    Mistakes = _gameEngine.GetMistakes(),
+                    TimeTaken = (int)(DateTime.Now - _gameEngine.GetStartTime()).TotalSeconds,
+                    PlayedAt = DateTime.Now
+                };
+
+                // Add the game history to the context and save changes
+                _context.GameHistories.Add(gameHistory);
+
+                try
+                {
+                    _context.SaveChanges();
+                }
+                catch (DbUpdateException ex)
+                {
+                    // Handle the error (for example, log it)
+                    MessageBox.Show($"Error saving game result: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+                }
+
+                // Pass the saved game history to the summary view
+                var summaryView = new SummaryView(gameHistory);  // Pass the generated GameId
+                summaryView.Show();
+                _currentWindow.Close();
             }
         }
 
         private void StartNewGame()
         {
-            //bool started = _gameEngine.StartGame(_playerId, _difficulty, _category);
-            bool started = _gameEngine.StartGame(4, "easy", "animal");
+            bool started = _gameEngine.StartGame(_difficulty, _category);
             if (!started)
             {
-                GameResultMessage = "No words available for the selected difficulty and category!";
                 IsGameOver = true;
                 return;
             }
@@ -145,14 +182,9 @@ namespace g1_hangmanhero.ViewModels
             CurrentWordState = _gameEngine.GetCurrentWordState();
             RemainingLives = _gameEngine.GetRemainingLives();
             Score = _gameEngine.GetScore();
-            ErrorMessage = string.Empty;
+            Round = _gameEngine.GetRound();
             IsGameOver = false;
-            GameResultMessage = string.Empty;
             GuessedLetter = string.Empty;
         }
-
-        private bool CanGuess(object parameter) => !IsGameOver && !string.IsNullOrEmpty(GuessedLetter);
-
-        private bool CanStartNewGame(object parameter) => true;
     }
 }

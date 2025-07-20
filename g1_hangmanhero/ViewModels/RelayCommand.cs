@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Input;
 
 namespace g1_hangmanhero.ViewModels
@@ -18,8 +14,7 @@ namespace g1_hangmanhero.ViewModels
             _canExecute = canExecute;
         }
 
-        public bool CanExecute(object parameter) =>
-            _canExecute == null || _canExecute(parameter);
+        public bool CanExecute(object parameter) => _canExecute?.Invoke(parameter) ?? true;
 
         public void Execute(object parameter) => _execute(parameter);
 

@@ -1,0 +1,499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\gamesetupadminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupadminview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\gamesetupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\historyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\historyview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\summaryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\summaryview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\gamesetupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\gamesetupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\gamesetupadminviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\models\\word.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\summaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\summaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\models\\gamehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\models\\gamehistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\services\\gameengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\data\\hangmanherocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\data\\hangmanherocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\viewmodels\\hangmanviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\historyview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\summaryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\hangmanview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|c:\\tai_lieu_hoc_tap\\vinh_prn\\g1_hangmanhero\\g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9B1D4E99-F6EE-424A-A069-84A38BC683DC}|g1_hangmanhero\\g1_hangmanhero.csproj|solutionrelative:g1_hangmanhero\\views\\gamesetupadminview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:54:50.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SummaryView.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\SummaryView.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\SummaryView.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\SummaryView.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\SummaryView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:48:31.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameSetupView.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupView.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupView.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupView.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:20:27.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameSetupAdminView.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:34:36.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoryView.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HistoryView.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HistoryView.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HistoryView.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\HistoryView.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAlwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:40:05.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:51:38.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:52:15.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameSetupViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\GameSetupViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:51:48.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:45:36.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HistoryViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\HistoryViewModel.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAmwEMAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:04:00.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameSetupAdminViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\GameSetupAdminViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:33:22.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T09:52:31.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\Player.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\Player.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Models\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:51:43.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Word.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\Word.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\Word.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\Word.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Models\\Word.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T09:51:44.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GameSetupView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T10:20:17.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SummaryViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\SummaryViewModel.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:41:44.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameHistory.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\GameHistory.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Models\\GameHistory.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Models\\GameHistory.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Models\\GameHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T10:02:06.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameEngine.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Services\\GameEngine.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Services\\GameEngine.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Services\\GameEngine.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Services\\GameEngine.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:57:20.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HangmanHeroContext.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Data\\HangmanHeroContext.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Data\\HangmanHeroContext.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Data\\HangmanHeroContext.cs",
+              "RelativeToolTip": "g1_hangmanhero\\Data\\HangmanHeroContext.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:23:30.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:52:39.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HangmanViewModel.cs",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
+              "RelativeToolTip": "g1_hangmanhero\\ViewModels\\HangmanViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:21:11.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HistoryView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HistoryView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HistoryView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HistoryView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\HistoryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T13:34:11.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "XamlReader.cs",
+              "DocumentMoniker": "C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs",
+              "ToolTip": "C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\0a84cc53936b314ba955b54f50bf4796d8234943f3fd7b93873381b45d404026\\XamlReader.cs [Read Only]",
+              "ViewState": "AgIAAJ8BAAAAAAAAAIAwwLUBAAACAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:26:35.548Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\App.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\App.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\App.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T09:58:41.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SummaryView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\SummaryView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\SummaryView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\SummaryView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\SummaryView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T13:42:00.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HangmanView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HangmanView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\HangmanView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\HangmanView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\HangmanView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T09:58:34.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\LoginView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T10:45:29.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GameSetupAdminView.xaml",
+              "DocumentMoniker": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
+              "RelativeDocumentMoniker": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
+              "ToolTip": "C:\\TAI_LIEU_HOC_TAP\\Vinh_PRN\\g1_hangmanhero\\g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
+              "RelativeToolTip": "g1_hangmanhero\\Views\\GameSetupAdminView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-18T10:32:34.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DefaultBinder.cs",
+              "DocumentMoniker": "C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs",
+              "ToolTip": "C:\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\Users\\HoangSang\\AppData\\Local\\Temp\\.vsdbgsrc\\2555e659cb52a1d328b9a33b879795c6f022ebfd9b5e54615bbcf4c64902a9a6\\DefaultBinder.cs [Read Only]",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAwwFEAAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T12:17:18.528Z",
+              "EditorCaption": " [Read Only]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 55,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
